@@ -7,6 +7,7 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | [01](day-01-html-basics) | HTML kya hai? |
 | [02](day-02-headings-paragraphs) | Headings & Paragraphs |
 | [03](day-03-links-images) | Links & Images |
+| [04](day-04-lists-navbar) | Lists & Navbar |
 | Bonus | [Website Checklist](day-02-website-checklist) |
 | Bonus | [Project Agreement Template](day-03-project-agreement) |
 
