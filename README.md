@@ -5,5 +5,6 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | Day | Topic |
 |---|---|
 | [01](day-01-html-basics) | HTML kya hai? |
+| [02](day-02-website-checklist) | Website kyun zaroori hai? + Checklist |
 
 Website: [amreshprajapati.com](https://amreshprajapati.com/)
