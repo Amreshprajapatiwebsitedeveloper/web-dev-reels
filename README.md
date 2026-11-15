@@ -8,6 +8,7 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | [02](day-02-headings-paragraphs) | Headings & Paragraphs |
 | [03](day-03-links-images) | Links & Images |
 | [04](day-04-lists-navbar) | Lists & Navbar |
+| [05](day-05-tables) | Tables |
 | Bonus | [Website Checklist](day-02-website-checklist) |
 | Bonus | [Project Agreement Template](day-03-project-agreement) |
 
