@@ -10,6 +10,7 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | [04](day-04-lists-navbar) | Lists & Navbar |
 | [05](day-05-tables) | Tables |
 | [06](day-06-forms) | Forms (Login Form) |
+| [07](day-07-semantic-html) | Semantic HTML + SEO |
 | Bonus | [Website Checklist](day-02-website-checklist) |
 | Bonus | [Project Agreement Template](day-03-project-agreement) |
 
