@@ -1,0 +1,22 @@
+/* selector { property: value; } */
+
+body {
+  background: #111;          /* dark background */
+  color: #ddd;
+  font-family: Poppins, Arial, sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  color: #ff2e63;            /* pink heading */
+}
+
+button {
+  padding: 14px 28px;        /* andar ki jagah */
+  border: none;
+  border-radius: 12px;       /* gol kone */
+  background: #ff2e63;       /* pink button */
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
