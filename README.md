@@ -12,6 +12,7 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | [06](day-06-forms) | Forms (Login Form) |
 | [07](day-07-semantic-html) | Semantic HTML + SEO |
 | [08](day-08-css-basics) | CSS kya hai |
+| [09](day-09-css-selectors) | CSS Selectors |
 | Bonus | [Website Checklist](day-02-website-checklist) |
 | Bonus | [Project Agreement Template](day-03-project-agreement) |
 

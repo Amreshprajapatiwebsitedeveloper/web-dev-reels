@@ -1,0 +1,17 @@
+body { background: #0d0d0f; color: #eee; font-family: Poppins, Arial, sans-serif; padding: 30px; }
+
+/* 1) Element selector — page ke SAARE h1 */
+h1 { color: cyan; }
+
+/* 2) Class selector (dot) — jahan-jahan class="btn" hai, sab pe */
+.btn { background: #ff2e63; color: white; border: none; padding: 12px 24px; border-radius: 10px; }
+
+/* 3) ID selector (hash) — sirf EK element (id page pe ek hi baar) */
+#logo { background: #7c4dff; display: inline-block; padding: 8px 16px; border-radius: 8px; }
+
+/* Real example: saare menu cards ek hi class se same design */
+.menu { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.menu-item { background: #1a1a20; border: 2px solid #fff; border-radius: 14px; padding: 16px; }
+
+/* Aaj ki special dish — sirf usko alag color (id) */
+#special { background: #ffc400; color: #111; }
