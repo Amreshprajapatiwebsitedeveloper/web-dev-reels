@@ -9,6 +9,7 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | [03](day-03-links-images) | Links & Images |
 | [04](day-04-lists-navbar) | Lists & Navbar |
 | [05](day-05-tables) | Tables |
+| [06](day-06-forms) | Forms (Login Form) |
 | Bonus | [Website Checklist](day-02-website-checklist) |
 | Bonus | [Project Agreement Template](day-03-project-agreement) |
 
