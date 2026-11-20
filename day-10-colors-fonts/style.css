@@ -1,0 +1,31 @@
+/* Brand colors — ek jagah likho, har jagah use karo */
+:root {
+  --brand: #ff7a28;      /* orange (hex) */
+  --dark: #18161e;
+  --white: #ffffff;
+}
+
+body {
+  background: #0d0d0f;            /* hex color */
+  color: var(--white);
+  font-family: 'Poppins', Arial, sans-serif;  /* font-family */
+  padding: 2rem;                  /* rem = flexible unit */
+}
+
+h1 { color: #ff2e63; font-size: 2rem; }   /* hex + rem */
+
+/* Color likhne ke 3 tarike */
+.c-name { color: red; }                    /* 1) name */
+.c-hex  { color: #ff2e63; }                /* 2) hex code */
+.c-rgb  { color: rgb(0, 184, 245); }       /* 3) rgb */
+
+/* Real example: Gym website — 1 brand color har jagah */
+.nav { display: flex; justify-content: space-between; padding: 1rem; background: var(--dark); border-radius: 12px; }
+.logo { color: var(--brand); font-weight: 800; }
+.hero h2 { font-size: 2.5rem; font-weight: 800; line-height: 1.1; }   /* bold heading */
+.hero h2 span { color: var(--brand); }
+.hero p { font-weight: 400; color: #bbb; }                             /* simple text */
+.btn { display: inline-block; padding: 0.8rem 1.6rem; border-radius: 10px; background: var(--brand); color: #111; font-weight: 800; text-decoration: none; }
+.btn.outline { background: transparent; border: 2px solid var(--brand); color: var(--white); }
+
+/* px = fixed, rem = flexible (1rem = 16px by default) */
