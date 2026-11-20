@@ -1,0 +1,35 @@
+/* Har project ki pehli line: box utna hi rahega jitna bola */
+* { box-sizing: border-box; }
+
+body { background: #0d0d0f; color: #f5f5fa; font-family: 'Poppins', Arial, sans-serif; padding: 2rem; }
+
+/* Box Model: content -> padding -> border -> margin */
+.btn {
+  display: inline-block;
+  padding: 16px 32px;          /* andar ki jagah (text ko saans) */
+  border: 2px solid #fff;      /* box ki line */
+  border-radius: 12px;         /* gol kone */
+  margin: 20px 10px;           /* doosre box se doori */
+  background: #ff2e63;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn-2 { background: #7c4dff; }
+
+/* Real example: property cards */
+.logo { color: #00c478; }
+.logo span { color: #888; font-size: 1rem; font-weight: 400; }
+.grid { display: flex; flex-wrap: wrap; }
+.card {
+  width: 46%;
+  padding: 16px;               /* photo aur price andar aaram se */
+  margin: 2%;                  /* cards ke beech gap */
+  border: 3px solid #f5f5fa;
+  border-radius: 18px;
+  background: #1a1a20;
+}
+.photo { height: 120px; border-radius: 12px; }
+.p1 { background: #ff7a28; } .p2 { background: #00b8f5; } .p3 { background: #7c4dff; } .p4 { background: #ff2e63; }
+.card h3 { margin: 12px 0 4px; }
+.card p { margin: 0; color: #00c478; font-weight: 700; }
