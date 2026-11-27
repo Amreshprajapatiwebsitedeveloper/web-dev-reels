@@ -1,0 +1,25 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #0d0d0f; color: #f5f5f5; }
+
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 32px; background: #1a1922; position: relative; }
+.logo { color: #ff7a28; font-weight: 800; font-size: 1.4rem; }
+.links { display: flex; gap: 24px; list-style: none; }
+.links a { color: #f5f5f5; text-decoration: none; font-weight: 600; }
+.burger { display: none; background: none; border: 0; color: #fff; font-size: 2rem; cursor: pointer; }
+
+.hero { padding: 80px 32px; }
+.hero h1 { font-size: 3.5rem; }
+.btn { display: inline-block; margin-top: 20px; padding: 14px 28px; background: #ff7a28; color: #111; font-weight: 700; border-radius: 12px; text-decoration: none; }
+
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 0 32px 40px; }
+.card { background: #1a1922; border: 2px solid #fff; border-radius: 16px; padding: 24px; }
+.card h3 { color: #ffd23f; }
+
+/* ===== Mobile: screen 768px se chhoti ===== */
+@media (max-width: 768px) {
+  .cards { grid-template-columns: 1fr; }   /* cards neeche-neeche */
+  .hero h1 { font-size: 28px; }             /* font chhota */
+  .links { display: none; }                 /* menu chhupao */
+  .burger { display: block; }               /* hamburger dikhao */
+  .links.open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: #1a1922; padding: 16px 32px; }
+}

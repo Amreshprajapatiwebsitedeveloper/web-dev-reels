@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Ye line na ho to mobile pe media query kaam nahi karegi -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 14 — Responsive | IronFit Gym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">IronFit Gym</div>
+    <ul class="links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Classes</a></li>
+      <li><a href="#">Trainers</a></li>
+      <li><a href="#">Join</a></li>
+    </ul>
+    <button class="burger" aria-label="Menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+  </nav>
+
+  <header class="hero">
+    <h1>NO PAIN, NO GAIN</h1>
+    <a class="btn" href="#">Join Now</a>
+  </header>
+
+  <section class="cards">
+    <div class="card"><h3>Strength</h3><p>Weights &amp; power</p></div>
+    <div class="card"><h3>Cardio</h3><p>Burn calories</p></div>
+    <div class="card"><h3>Yoga</h3><p>Flexibility</p></div>
+  </section>
+</body>
+</html>
