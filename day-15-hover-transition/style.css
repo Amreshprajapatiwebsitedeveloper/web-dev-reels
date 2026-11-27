@@ -1,0 +1,35 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #0d0d0f; color: #f5f5f5; text-align: center; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 32px; background: #1a1922; }
+.logo { color: #ff3d7f; font-weight: 800; font-size: 1.4rem; }
+h1 { margin-top: 48px; }
+.tip { color: #9a9aaa; margin-top: 8px; }
+
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 900px; margin: 40px auto; padding: 0 20px; }
+
+/* 1) Card — transition NORMAL state pe */
+.card {
+  background: #1a1922; border: 2px solid #fff; border-radius: 18px; padding: 28px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+/* 2) Hover pe upar uthe + shadow */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 30px rgba(255, 61, 127, 0.35);
+}
+.card h3 { margin-top: 14px; }
+.card p { color: #ffd23f; font-weight: 700; margin: 6px 0 16px; }
+.dot { width: 90px; height: 90px; border-radius: 50%; margin: 0 auto; border: 3px solid #fff; }
+.pink { background: #ff3d7f; } .purple { background: #8b5cf6; } .orange { background: #ff7a28; }
+
+/* 3) Button — color + scale smooth */
+.btn {
+  display: inline-block; padding: 10px 26px; border-radius: 12px;
+  background: #ff3d7f; color: #fff; font-weight: 700; text-decoration: none;
+  transition: all 0.3s;
+}
+.btn:hover { background: #8b5cf6; transform: scale(1.1); }
+
+@media (max-width: 768px) {
+  .cards { grid-template-columns: 1fr; }
+}

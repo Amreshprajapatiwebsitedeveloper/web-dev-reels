@@ -18,6 +18,7 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | [12](day-12-flexbox) | Flexbox |
 | [13](day-13-css-grid) | CSS Grid |
 | [14](day-14-responsive) | Responsive (Media Query) |
+| [15](day-15-hover-transition) | Hover Effects & Transition |
 | Bonus | [Website Checklist](day-02-website-checklist) |
 | Bonus | [Project Agreement Template](day-03-project-agreement) |
 
