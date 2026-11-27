@@ -1,0 +1,26 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #0d0d0f; color: #f5f5f5; }
+
+.top { display: flex; justify-content: space-between; align-items: center; padding: 20px 32px; background: #1a1922; }
+.top h1 { color: #ffd23f; }
+
+/* CSS Grid — 3 barabar columns */
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.dish { background: #1a1922; border: 2px solid #fff; border-radius: 16px; padding: 24px; text-align: center; }
+.dish h3 { margin-top: 12px; }
+.dish p { color: #ffd23f; font-weight: 700; margin-top: 6px; }
+.dot { width: 80px; height: 80px; border-radius: 50%; margin: 0 auto; border: 3px solid #fff; }
+.pink { background: #ff3d7f; } .yellow { background: #ffd23f; } .purple { background: #8b5cf6; }
+.cyan { background: #00d1ff; } .green { background: #22c55e; } .orange { background: #ff7a28; }
+
+/* Mobile — sab neeche-neeche */
+@media (max-width: 600px) {
+  .menu { grid-template-columns: 1fr; }
+}

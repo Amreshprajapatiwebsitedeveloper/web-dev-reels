@@ -16,6 +16,7 @@ Instagram [@amreshprajapatiwebdevloper](https://www.instagram.com/amreshprajapat
 | [10](day-10-colors-fonts) | Colors, Fonts & Units |
 | [11](day-11-box-model) | Box Model |
 | [12](day-12-flexbox) | Flexbox |
+| [13](day-13-css-grid) | CSS Grid |
 | Bonus | [Website Checklist](day-02-website-checklist) |
 | Bonus | [Project Agreement Template](day-03-project-agreement) |
 
